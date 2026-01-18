@@ -17,3 +17,7 @@ variable "rg_details" {
         address_prefixes = ["10.0.1.0/24"]
     }
 }
+
+variable ssh_public_key {
+    type = string
+}
