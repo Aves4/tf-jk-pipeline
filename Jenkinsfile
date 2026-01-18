@@ -9,11 +9,6 @@ pipeline {
   }
 
   stages {
-    stage('Checkout') {
-      steps {
-        git branch: 'main', url: 'git@github.com:Aves4/tf-jk-pipeline.git'
-      }
-    }
 
     stage('Terraform Init') {
       steps {
