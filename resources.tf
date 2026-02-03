@@ -2,7 +2,7 @@
         name = var.rg_details.rg_name
         location = var.rg_details.rg_location
     }
-
+/*
     resource "azurerm_virtual_network" "vnet"{
     name                = var.rg_details.vnet_name
     location            = azurerm_resource_group.rg.location
@@ -104,3 +104,4 @@
         version   = "latest"
     }
     }
+*/
